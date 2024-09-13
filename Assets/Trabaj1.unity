@@ -2015,7 +2015,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 82.14249
+    FieldOfView: 50.17
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -2041,8 +2041,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265341584}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.8292154, z: -0, w: 0.5589293}
-  m_LocalPosition: {x: -3.497, y: 3.724, z: 0}
+  m_LocalRotation: {x: -0.045252867, y: -0.9442627, z: -0.14676249, w: 0.29117182}
+  m_LocalPosition: {x: 0.94323254, y: 2.290372, z: -1.7264767}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7078,8 +7078,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.8292154, z: 0, w: 0.5589293}
-  m_LocalPosition: {x: -3.497, y: 3.724, z: 0}
+  m_LocalRotation: {x: -0.022520097, y: -0.95070493, z: -0.07114222, w: 0.30098465}
+  m_LocalPosition: {x: 0.99411535, y: 2.3666067, z: -1.7659378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8349,6 +8349,62 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1185067333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1185067335}
+  - component: {fileID: 1185067334}
+  m_Layer: 0
+  m_Name: TEST
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1185067334
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185067333}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 250528df261d73b46b5289e1727e50bf, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 8231414843546243683, guid: 250528df261d73b46b5289e1727e50bf, type: 2}
+    value: {fileID: 1740291311}
+  - key: {fileID: -5413168150178255442, guid: 250528df261d73b46b5289e1727e50bf, type: 2}
+    value: {fileID: 919132148501545609}
+  - key: {fileID: 2815020356192628804, guid: 250528df261d73b46b5289e1727e50bf, type: 2}
+    value: {fileID: 961739754}
+  m_ExposedReferences:
+    m_References:
+    - f1ebedbd056c06e4ba89e77fdd674c80: {fileID: 265341585}
+--- !u!4 &1185067335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185067333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.4850917, y: 3.4016628, z: -5.7944527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1225365579
 GameObject:
   m_ObjectHideFlags: 0
@@ -8735,7 +8791,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.2976625, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.018810872, b: 0, a: 1}
   m_Intensity: 3.05
   m_Range: 10
   m_SpotAngle: 30
@@ -11430,6 +11486,12 @@ PrefabInstance:
 --- !u!4 &1740291310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5139a152c70a4e243bad5f5b86e4cf67,
+    type: 3}
+  m_PrefabInstance: {fileID: 1740291309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1740291311 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 5139a152c70a4e243bad5f5b86e4cf67,
     type: 3}
   m_PrefabInstance: {fileID: 1740291309}
   m_PrefabAsset: {fileID: 0}
@@ -14671,6 +14733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652238665778}
+  - component: {fileID: 919132148501545609}
   m_Layer: 0
   m_Name: metro
   m_TagString: Untagged
@@ -14678,6 +14741,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &919132148501545609
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148501545608}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &919132149461109215
 GameObject:
   m_ObjectHideFlags: 0
@@ -15127,3 +15211,4 @@ SceneRoots:
   - {fileID: 543450652238665778}
   - {fileID: 983960149}
   - {fileID: 1692408459}
+  - {fileID: 1185067335}
